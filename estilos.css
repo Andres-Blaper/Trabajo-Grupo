@@ -4,10 +4,61 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: gray;
+    width: 90%;
+    max-width: 1000px;
+    padding: 20px;
+    display: flex;
+    height: 100px;
+}
 
+div.LOGO{
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+nav{
+    background-color: red;
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+nav p{
+    color: white;
+}
+
+main{
+    width: 68%;
+    max-width: 680px;
+    height: 500px;
+    padding: 20px;
+}
 
 main article {
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #000;
 }
+
+hr{
+    width: 660px;
+    padding: 15px;
+}
+
+aside{
+    width: 32%;
+    max-width: 320px;
+    color: orange;
+    height: 500px;
+}
+
+footer{
+    background-color: gray;
+    width: 90%;
+    max-width: 1000px;
+}
+
