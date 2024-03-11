@@ -5,43 +5,59 @@
 }
 
 header{
-    background-color: gray;
+    background-color: black;
     width: 90%;
     max-width: 1000px;
-    padding: 20px;
     justify-content: space-around;
     display: flex;
     height: 100px;
+    align-items: center;
 }
 
 div.LOGO{
     color: white;
-    margin: 10px;
+    padding: 20px;
     text-align: center;
 }
 
 nav{
     background-color: red;
     display: flex;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     align-items: center;
 }
 
-nav p{
+nav a{
     color: white;
     padding-right: 20px;
     padding-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+div.elpapu{
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 1000px;
 }
 
 main{
     width: 68%;
-    max-width: 680px;
-    height: 500px;
     padding: 20px;
 }
 
 main article {
     margin-bottom: 20px;
     padding-bottom: 20px;
+    font-size: 24px;
+}
+
+main article.Uno {
     border-bottom: 1px solid #000;
 }
 
@@ -52,14 +68,56 @@ hr{
 
 aside{
     width: 32%;
-    max-width: 320px;
-    color: orange;
-    height: 500px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.Img1 img{
+    width: 300px;
+    padding: 20px;
+}
+
+section.Img2 img{
+    width: 300px;
+    padding: 20px;
+    padding-top: 0px;
 }
 
 footer{
-    background-color: gray;
+    background-color: black;
     width: 90%;
     max-width: 1000px;
+    justify-content: space-between;
+    display: flex;
+    height: 100px;
+    padding: 20px;
+    align-items: center;
 }
 
+footer div.Titulo{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer div.RRSS{
+    text-align: center;
+    background-color: orange;
+    padding: 20px;
+}
+
+footer div.RRSS a{
+    text-decoration: none;
+    color: white;
+}
+
+footer div.RRSS a:hover{
+    text-decoration: underline;
+
+}
+
+footer div.RRSS a.FB{
+    padding-right: 10px;
+}
